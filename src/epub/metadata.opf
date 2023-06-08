@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier opf:scheme="uuid" id="uuid_id">83313918-4641-43c7-b46b-b1d14f3f2f6e</dc:identifier>
+    <dc:title>El Ministro Portales</dc:title>
+    <dc:creator opf:file-as="Unknown" opf:role="aut">Ramón Sotomayor Valdés</dc:creator>
+    <dc:contributor opf:file-as="calibre" opf:role="bkp">Chilelibros</dc:contributor>
+    <dc:language>spa</dc:language>
+    <dc:description>Una corta exposición del actuar de Diego Portales.</dc:description>
+    <meta name="cover" content="cover"/>
+  </metadata>
+  <manifest>
+    <item href="css/style.css" id="id" media-type="text/css"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="portada" href="txt/portada.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cover" href="img/portada.jpg" media-type="image/jpeg"/>
+    <item href="txt/portadaInterior.xhtml" id="portadaInterior" media-type="application/xhtml+xml"/>
+    <item href="txt/capitulo-1.xhtml" id="cap-1" media-type="application/xhtml+xml"/>
+    <item href="txt/capitulo-2.xhtml" id="cap-2" media-type="application/xhtml+xml"/>
+    <item href="txt/capitulo-3.xhtml" id="cap-3" media-type="application/xhtml+xml"/>
+    <item href="txt/capitulo-4.xhtml" id="cap-4" media-type="application/xhtml+xml"/>
+    <item href="txt/capitulo-5.xhtml" id="cap-5" media-type="application/xhtml+xml"/>
+    <item href="txt/notas.xhtml" id="notas" media-type="application/xhtml+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="portada"/>
+    <itemref idref="portadaInterior"/>
+    <itemref idref="cap-1"/>
+    <itemref idref="cap-2"/>
+    <itemref idref="cap-3"/>
+    <itemref idref="cap-4"/>
+    <itemref idref="cap-5"/>
+    <itemref idref="notas"/>
+  </spine>
+  <guide>
+    <reference href="txt/portada.xhtml" type="cover" title="Cover"/>
+    <reference href="txt/portadaInterior.xhtml" type="other.halftitlepage" title="Portada Interior"/>
+  </guide>
+</package>
